@@ -1,0 +1,53 @@
+[% META title = 'Hello World!' %]
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<p>
+This is a TT view template, located in the root directory
+<p>
+
+<h3>Ajax Call</h3>
+<pre>
+function jsonajax() {
+	$.ajax({
+		url: '/site/test2',
+		type: 'GET',
+		data: '',
+		dataType: 'json',
+		success: function(data) {
+			//called when successful
+			$('#jsonajax-results').html(data);
+		},
+		error: function(e) {
+			//called when there is an error
+			$('#jsonajax-results').html(e.message);
+		}
+	});
+}
+</pre>
+
+<button id="jsonajax" onclick="jsonajax();">Run Code Above</button>
+
+<div id="jsonajax-results" class="results"></div>
+</div>
+
+<script>
+
+function jsonajax() {
+	$.ajax({
+		url: '/site/test2',
+		type: 'GET',
+		data: '',
+		dataType: 'json',
+		success: function(data) {
+			//called when successful
+			console.log(data);
+			$('#jsonajax-results').html(data);
+		},
+		error: function(e) {
+			//called when there is an error
+			$('#jsonajax-results').html(e.message);
+		}
+	});
+}
+</script>
+
+

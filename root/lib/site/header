@@ -1,0 +1,98 @@
+<!-- BEGIN site/header -->
+<!-- black top bar -->
+<div class="box" id="black-top-bar">
+    <div class="center">
+        <div class="box">
+            <!-- left menu -->
+            <ul class="hmenu left iphone-hidden" id="black-top-bar-left-menu">
+                <li class="glow"><a href="https://github.com/1rosehip/jplist/issues?state=open" title=""><i class="fa fa-asterisk"></i> Request a feature / <i class="fa fa-bug"></i> Report a bug</a></li>
+            </ul>
+            <!-- social menu -->
+            <ul class="hmenu right" id="social-menu">
+                <li class="glow">
+                    <a href="https://www.facebook.com/jplist" title=""><i class="fa fa-facebook"></i>&nbsp;</a>
+                </li>
+                <li class="glow">
+                    <a href="https://plus.google.com/+Jplistjs" title="" rel="publisher"><i class="fa fa-google-plus"></i></a>
+                </li>
+                <li class="glow">
+                    <a href="https://twitter.com/jquery_jplist" title=""><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="glow">
+                    <a href="https://github.com/1rosehip/jplist" title=""><i class="fa fa-github"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- header -->
+<header class="box" id="header">
+    <div class="box" id="header-box">
+        <div class="center">
+            <div class="box">
+                <!-- mobile menu -->
+                <div id="mobile-menu">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <ul id="mobile-menu-content" class="default-menu vmenu-2 box">
+                        <li class="">
+                            <a title="" href="http://jplist.com/controls" class="">Controls</a>
+                        </li>
+                        <li class="">
+                            <a title="" href="http://jplist.com/bundles" class="">Bundles</a>
+                        </li>
+                        <li class="">
+                            <a title="" href="http://jplist.com/datasources" class="">Data Sources</a>
+                        </li>
+                        <li class="">
+                            <a title="" href="http://jplist.com/demo" class="">Examples</a>
+                        </li>
+                        <li class="">
+                            <a title="" href="http://jplist.com/documentation" class="">Documentation</a>
+                        </li>
+                        <li class="">
+                            <a title="" href="http://jplist.com/download" class="">Download</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- logo -->
+                <div id="logo" class="left" style="padding: 0;">
+                    <a href="/" title="">
+                                <img src="/content/img/common/rocket.png" alt="jPList - jQuery Data Grid Controls" title="jPList - jQuery Data Grid Controls" />
+                                [% template.header_title or "jPList - jQuery Data Grid Controls" %]
+                            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+[% UNLESS template.no_show_menu %]
+<div class="box" id="top-menu-box">
+    <div class="center">
+        <div class="box" id="top-menu">
+            <!-- tabs navigation -->
+            <ul class="default-menu hmenu left box">
+                <li class="">
+                    <a title="" href="http://jplist.com/controls" class="">Controls</a>
+                </li>
+                <li class="">
+                    <a title="" href="http://jplist.com/bundles" class="">Bundles</a>
+                </li>
+                <li class="">
+                    <a title="" href="http://jplist.com/datasources" class="">Data Sources</a>
+                </li>
+                <li class="">
+                    <a title="" href="http://jplist.com/demo" class="">Examples</a>
+                </li>
+                <li class="">
+                    <a title="" href="http://jplist.com/documentation" class="">Documentation</a>
+                </li>
+                <li class="">
+                    <a title="" href="http://jplist.com/download" class="">Download</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+[% END %]
+<!-- END site/header -->

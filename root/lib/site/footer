@@ -1,0 +1,35 @@
+<!-- footer -->
+<footer class="box" id="footer">
+    <div class="center">
+        <!-- footer top row -->
+        <div class="box footer-top-row">
+            <div class="left box-30">
+                <ul class="vmenu-2">
+                    <li class="header">Support/Help</li>
+                    <li class="glow"><a href="https://github.com/1rosehip/jplist/issues?state=open" title=""><i class="fa fa-asterisk"></i> Request a feature</a></li>
+                    <li class="glow"><a href="https://github.com/1rosehip/jplist/issues?state=open" title=""><i class="fa fa-bug"></i> Report a bug</a></li>
+                    <li class="glow"><a href="https://github.com/1rosehip/jplist" title=""><i class="fa fa-github"></i> Download on GitHub</a></li>
+                    <li class="glow"><a href="mailto:1rosehip@gmail.com" title=""><i class="fa fa-envelope"></i> Contact us</a></li>
+                </ul>
+            </div>
+            <div class="left box-30">
+                <ul class="vmenu-2">
+                    <li class="header">Follow jPList</li>
+                    <li class="glow"><a href="https://twitter.com/jquery_jplist" title=""><i class="fa fa-twitter"></i> Follow us on Twitter</a></li>
+                    <li class="glow"><a href="https://www.facebook.com/jplist" title=""><i class="fa fa-facebook"></i>&nbsp; Be a fan on Facebook</a></li>
+                    <li class="glow"><a href="https://plus.google.com/+Jplistjs" title=""><i class="fa fa-google-plus"></i> Follow us on Google+</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- footer bottom row -->
+    <div class="box footer-bot-row">
+        <div class="center">
+            <div class="box">
+                <p class="align-center glow" id="footer-content">
+                    Copyright &copy; 2017 <b>jPList Software</b>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>

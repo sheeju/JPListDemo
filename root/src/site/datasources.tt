@@ -21,45 +21,29 @@
                         </div>
                     </div>
                 </div>
-                <!-- datasource -->
-                <div class="left products-grid-item">
-                    <div class="products-grid-item-content">
-                        <!-- datasource thumb -->
-                        <div class="thumb">
-                            <a href="/datasources/asp-net-data-source" title="ASP.NET Data Source">
-                                        <img src="/content/img/products/thumbs/asp-net-data-source.jpg" alt="" title="">
-                                    </a>
-                        </div>
-                        <!-- datasource title -->
-                        <div class="title">
-                            <a href="/datasources/asp-net-data-source" title="ASP.NET Data Source">ASP.NET Data Source</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- nodejs express -->
-                <div class="left products-grid-item" data-type="jplist-item">
-                    <div class="products-grid-item-content">
-                        <!-- product thumb -->
-                        <div class="thumb">
-                            <a href="https://github.com/no81no/jplist-nodejs-express" title="jPList NodeJS and Express sample project">
-                                <img src="/content/img/products/thumbs/jplist-nodejs-express.jpg" alt="" title="">
-                            </a>
-                        </div>
-                        <!-- product title -->
-                        <div class="title">
-                            <a href="https://github.com/no81no/jplist-nodejs-express" title="jPList NodeJS and Express sample project">jPList NodeJS and Express</a>
-                        </div>
-                    </div>
-                </div>
+                <!-- perl html demo -->
                 <div class="left products-grid-item" data-type="jplist-item">
                     <div class="products-grid-item-content">
                         <div class="thumb">
-                            <a href="https://github.com/no81no/jplist-grails-groovy" title="jPList Grails and Groovy sample project">
+                            <a href="/datasourcesexample/perl-html-demo" title="jPList Grails and Groovy sample project">
                                 <img src="/content/img/products/thumbs/catalyst_logo.png" alt="" title="" />
                             </a>
                         </div>
                         <div class="title">
-                            <a href="https://github.com/no81no/jplist-grails-groovy" title="jPList Grails and Groovy sample project">jPList Catalyst/Perl Server Side</a>
+                            <a href="/datasourcesexample/perl-html-demo" title="jPList Grails and Groovy sample project">Catalyst/Perl HTML Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- perl json demo -->
+                <div class="left products-grid-item" data-type="jplist-item">
+                    <div class="products-grid-item-content">
+                        <div class="thumb">
+                            <a href="/datasourcesexample/perl-json-demo" title="jPList Grails and Groovy sample project">
+                                <img src="/content/img/products/thumbs/catalyst_logo.png" alt="" title="" />
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/datasourcesexample/perl-json-demo" title="jPList Grails and Groovy sample project">Catalyst/Perl JSON Demo</a>
                         </div>
                     </div>
                 </div>

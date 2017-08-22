@@ -43,7 +43,6 @@ around execute => sub {
         # Hand to JSON to process the view
         $c->view('JSON')->process($c);
     };
-	$c->log->debug("In around execute of AR AJAX: ".$c->stash->{ajax});
 
     # Continue normal processing
     return $self->$orig(@_);
@@ -55,16 +54,12 @@ around execute => sub {
 after execute => sub {
     my ($self, $controller, $c) = @_;
 
-	$c->log->debug("In after execute of AR AJAX: ".$c->stash->{ajax});
-
     # Ignore non-AJAX requests
     return unless $c->stash->{ajax} == 1;
 
     # Set the cache headers
 	#$c->dont_cache;
-
-	$c->log->debug(Dumper($c->stash));
-
+    
     # Send to JSON view
     $c->detach('View::JSON');
 };

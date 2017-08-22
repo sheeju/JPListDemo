@@ -45,6 +45,11 @@ __PACKAGE__->config(
 	       qw/tmpl tt tt2 xhtml/
         ],
     },
+    'View::JSON' => {
+        allow_callback => 0,
+        callback_param => 'callback',
+        expose_stash   => [ qw/data count/ ],
+    },
 );
 
 # Start the application

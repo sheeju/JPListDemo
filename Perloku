@@ -1,0 +1,2 @@
+#!/bin/sh
+./script/jplistdemo_server.pl -p $PORT

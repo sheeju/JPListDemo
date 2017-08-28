@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS "Items";
 CREATE TABLE "Items" (
-	"Id"			SERIAL PRIMARY KEY NOT NULL,
+	"Id"			INTEGER PRIMARY KEY AUTOINCREMENT,
 	"Title"			VARCHAR(255) NULL,
 	"Image"			VARCHAR(255) NULL,
 	"Description"	TEXT NULL,
@@ -71,19 +71,3 @@ INSERT INTO "Items" ("Title", "Image", "Description", "Likes", "ViewsNumber", "K
 INSERT INTO "Items" ("Title", "Image", "Description", "Likes", "ViewsNumber", "Keyword1", "Keyword2")  VALUES	('Winter Sun', '../img/thumbs/winter-sun.jpg', 'The Sun is the star at the center of the Solar System. It is almost perfectly spherical and consists of hot plasma interwoven with magnetic fields. It has a diameter\r\nof about 1,392,000 km, about 109 times that of Earth, and its mass  accounts for about 99.86% of the total mass of the Solar System. Chemically, about three quarters of the Sun''s mass consists of hydrogen, while the rest is mostly helium.\r\nThe remainder (1.69%, which nonetheless equals 5,628 times the mass of Earth) consists of heavier elements, including oxygen, carbon, neon and iron, among others.', 81, 122,  'Nature', 'Red');
 
 INSERT INTO "Items" ("Title", "Image", "Description", "Likes", "ViewsNumber", "Keyword1", "Keyword2")  VALUES	('Wood', '../img/thumbs/woodstump.jpg', 'Wood is a hard, fibrous tissue found in many trees. It has been used for hundreds of thousands of years for both fuel and as a construction material. It is an organic material, a natural composite of cellulose fibers (which are strong in tension) embedded in a matrix of lignin which resists compression. Wood is produced as secondary xylem in the stems of trees (and other woody plants). In a living tree it performs a support function, enabling woody plants to grow large or to stand up for\r\nthemselves. It also mediates the transfer of water and nutrients to the leaves and other growing tissues. Wood may also refer to other plant materials with comparable properties, and to material engineered from wood, or wood chips or fiber.', 25, 358, 'Nature', 'Green');
-
-DROP TABLE IF EXISTS "User";
-CREATE TABLE "User" (
-	"Id"			SERIAL 			PRIMARY KEY NOT NULL,
-	"UserName"		VARCHAR(255) 	NOT NULL,
-	"Password"		VARCHAR(255) 	NOT NULL,
-	"Status"		INTEGER 		NOT NULL DEFAULT 1
-);
-
-DROP TABLE IF EXISTS "Books";
-CREATE TABLE "Books" (
-	"Id"			SERIAL 			PRIMARY KEY NOT NULL,
-	"Title"			VARCHAR(255) 	NOT NULL,
-	"PurchaseDate"	VARCHAR(255) 	NOT NULL,
-	"Status"		INTEGER 		NOT NULL DEFAULT 1
-);

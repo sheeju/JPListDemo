@@ -10,10 +10,10 @@
                 <div class="left products-grid-item">
                     <div class="products-grid-item-content">
                         <!-- datasource thumb -->
-                        <div class="thumb">
-                            <a href="/datasources/php-mysql-data-source" title="PHP and MySQL Data Source">
-                                        <img src="/content/img/products/thumbs/php-mysql-data-source.jpg" alt="" title="">
-                                    </a>
+						<div class="thumb">
+							<a href="/datasources/php-mysql-data-source" title="PHP and MySQL Data Source">
+								<img src="/content/img/products/thumbs/php-mysql-data-source.jpg" alt="" title="">
+							</a>
                         </div>
                         <!-- datasource title -->
                         <div class="title">
@@ -25,12 +25,12 @@
                 <div class="left products-grid-item" data-type="jplist-item">
                     <div class="products-grid-item-content">
                         <div class="thumb">
-                            <a href="/datasourcesexample/perl-html-demo" title="jPList Grails and Groovy sample project">
-                                <img src="/content/img/products/thumbs/catalyst_logo.png" alt="" title="" />
+                            <a href="/datasourcesexample/perl-html-demo" title="Catalyst Perl HTML Demo">
+                                <img src="/content/img/products/thumbs/catalyst_perl_html.png" alt="" title="" />
                             </a>
                         </div>
                         <div class="title">
-                            <a href="/datasourcesexample/perl-html-demo" title="jPList Grails and Groovy sample project">Catalyst/Perl HTML Demo</a>
+                            <a href="/datasourcesexample/perl-html-demo" title="Catalyst Perl HTML Demo">Catalyst/Perl HTML Demo</a>
                         </div>
                     </div>
                 </div>
@@ -38,12 +38,12 @@
                 <div class="left products-grid-item" data-type="jplist-item">
                     <div class="products-grid-item-content">
                         <div class="thumb">
-                            <a href="/datasourcesexample/perl-json-demo" title="jPList Grails and Groovy sample project">
-                                <img src="/content/img/products/thumbs/catalyst_logo.png" alt="" title="" />
+                            <a href="/datasourcesexample/perl-json-demo" title="Catalyst Perl JSON Demo">
+                                <img src="/content/img/products/thumbs/catalyst_perl_json.png" alt="" title="" />
                             </a>
                         </div>
                         <div class="title">
-                            <a href="/datasourcesexample/perl-json-demo" title="jPList Grails and Groovy sample project">Catalyst/Perl JSON Demo</a>
+                            <a href="/datasourcesexample/perl-json-demo" title="Catalyst Perl JSON Demo">Catalyst/Perl JSON Demo</a>
                         </div>
                     </div>
                 </div>

@@ -105,10 +105,10 @@ $('document').ready(function () {
                         <li><span data-path="default">Sort by</span></li>
                         <li><span data-path=".Title" data-order="asc" data-type="text">Title A-Z</span></li>
                         <li><span data-path=".Title" data-order="desc" data-type="text">Title Z-A</span></li>
-                        <li><span data-path=".Desc" data-order="asc" data-type="text">Description A-Z</span></li>
-                        <li><span data-path=".Desc" data-order="desc" data-type="text">Description Z-A</span></li>
-                        <li><span data-path=".Like" data-order="asc" data-type="number">Likes asc</span></li>
-                        <li><span data-path=".Like" data-order="desc" data-type="number">Likes desc</span></li>
+                        <li><span data-path=".Description" data-order="asc" data-type="text">Description A-Z</span></li>
+                        <li><span data-path=".Description" data-order="desc" data-type="text">Description Z-A</span></li>
+                        <li><span data-path=".Likes" data-order="asc" data-type="number">Likes asc</span></li>
+                        <li><span data-path=".Likes" data-order="desc" data-type="number">Likes desc</span></li>
                     </ul>
                 </div>
 
@@ -145,7 +145,7 @@ $('document').ready(function () {
                     <![endif]-->
                                         
                     <input 
-                        data-path=".Desc" 
+                        data-path=".Description" 
                         data-button="#desc-search-button"
                         type="text" 
                         value="" 
@@ -182,11 +182,11 @@ $('document').ready(function () {
                     data-control-action="filter">
                     
                     <ul>
-                        <li><span data-path="default">Filter by category</span></li>
-                        <li><span data-path=".architecture">Architecture</span></li>
-                        <li><span data-path=".christmas">Christmas</span></li>
-                        <li><span data-path=".lifestyle">LifeStyle</span></li>
-                        <li><span data-path=".nature">Nature</span></li>
+                        <li><span data-filterType="Keyword1" data-path="default">Filter by category</span></li>
+                        <li><span data-filterType="Keyword1" data-path="Architecture">Architecture</span></li>
+                        <li><span data-filterType="Keyword1" data-path="Christmas">Christmas</span></li>
+                        <li><span data-filterType="Keyword1" data-path="Lifestyle">LifeStyle</span></li>
+                        <li><span data-filterType="Keyword1" data-path="Nature">Nature</span></li>
                     </ul>
                 </div>
                                     
@@ -204,10 +204,10 @@ $('document').ready(function () {
                     class="jplist-group"
                     data-control-type="checkbox-group-filter"
                     data-control-action="filter"
-                    data-control-name="Title">
+                    data-control-name="Keyword1">
 
                     <input
-                        data-path=".architecture"
+                        data-path="Architecture"
                         id="architecture"
                         type="checkbox"
                     />
@@ -215,7 +215,7 @@ $('document').ready(function () {
                     <label for="architecture">Architecture</label>
 
                     <input
-                        data-path=".christmas"
+                        data-path="Christmas"
                         id="christmas"
                         type="checkbox"
                     />
@@ -223,7 +223,7 @@ $('document').ready(function () {
                     <label for="christmas">Christmas</label>
 
                     <input
-                        data-path=".nature"
+                        data-path="Nature"
                         id="nature"
                         type="checkbox"
                     />
@@ -231,7 +231,7 @@ $('document').ready(function () {
                     <label for="nature">Nature</label>
 
                     <input
-                        data-path=".lifestyle"
+                        data-path="Lifestyle"
                         id="lifestyle"
                         type="checkbox"
                     />
@@ -243,10 +243,10 @@ $('document').ready(function () {
                     class="jplist-group"
                     data-control-type="checkbox-group-filter"
                     data-control-action="filter"
-                    data-control-name="colors">
+                    data-control-name="Keyword2">
 
                     <input
-                        data-path=".red"
+                        data-path="Red"
                         id="red-color"
                         type="checkbox"
                     />
@@ -254,7 +254,7 @@ $('document').ready(function () {
                     <label for="red-color">Red</label>
 
                     <input
-                        data-path=".green"
+                        data-path="Green"
                         id="green-color"
                         type="checkbox"
                     />
@@ -262,7 +262,7 @@ $('document').ready(function () {
                     <label for="green-color">Green</label>
 
                     <input
-                        data-path=".blue"
+                        data-path="Blue"
                         id="blue-color"
                         type="checkbox"
                     />
@@ -270,7 +270,7 @@ $('document').ready(function () {
                     <label for="blue-color">Blue</label>
 
                     <input
-                        data-path=".brown"
+                        data-path="Brown"
                         id="brown-color"
                         type="checkbox"
                     />
@@ -340,10 +340,10 @@ $('document').ready(function () {
                         <li><span data-path="default">Sort by</span></li>
                         <li><span data-path=".Title" data-order="asc" data-type="text">Title A-Z</span></li>
                         <li><span data-path=".Title" data-order="desc" data-type="text">Title Z-A</span></li>
-                        <li><span data-path=".Desc" data-order="asc" data-type="text">Description A-Z</span></li>
-                        <li><span data-path=".Desc" data-order="desc" data-type="text">Description Z-A</span></li>
-                        <li><span data-path=".Like" data-order="asc" data-type="number">Likes asc</span></li>
-                        <li><span data-path=".Like" data-order="desc" data-type="number">Likes desc</span></li>
+                        <li><span data-path=".Description" data-order="asc" data-type="text">Description A-Z</span></li>
+                        <li><span data-path=".Description" data-order="desc" data-type="text">Description Z-A</span></li>
+                        <li><span data-path=".Likes" data-order="asc" data-type="number">Likes asc</span></li>
+                        <li><span data-path=".Likes" data-order="desc" data-type="number">Likes desc</span></li>
                     </ul>
                 </div>
                                     

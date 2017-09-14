@@ -6,21 +6,6 @@
         <div class="box text-shadow jplist" id="product-listing">
             <!-- datasources list -->
             <div class="box products-grid" style="margin: 0">
-                <!-- datasource -->
-                <div class="left products-grid-item">
-                    <div class="products-grid-item-content">
-                        <!-- datasource thumb -->
-						<div class="thumb">
-							<a href="/datasources/php-mysql-data-source" title="PHP and MySQL Data Source">
-								<img src="/content/img/products/thumbs/php-mysql-data-source.jpg" alt="" title="">
-							</a>
-                        </div>
-                        <!-- datasource title -->
-                        <div class="title">
-                            <a href="/datasources/php-mysql-data-source" title="PHP and MySQL Data Source">PHP and MySQL Data Source</a>
-                        </div>
-                    </div>
-                </div>
                 <!-- perl html demo -->
                 <div class="left products-grid-item" data-type="jplist-item">
                     <div class="products-grid-item-content">
@@ -44,6 +29,21 @@
                         </div>
                         <div class="title">
                             <a href="/datasourcesexample/perl-json-demo" title="Catalyst Perl JSON Demo">Catalyst/Perl JSON Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- jplist datasource -->
+                <div class="left products-grid-item">
+                    <div class="products-grid-item-content">
+                        <!-- datasource thumb -->
+                        <div class="thumb">
+                            <a href="https://jplist.com/datasources" title="Other Data Source Examples">
+                                <img src="/content/img/products/thumbs/php-mysql-data-source.jpg" alt="" title="">
+                            </a>
+                        </div>
+                        <!-- datasource title -->
+                        <div class="title">
+                            <a href="https://jplist.com/datasources" title="Other Data Source Examples">Other Data Source Examples</a>
                         </div>
                     </div>
                 </div>
